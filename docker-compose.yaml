@@ -5,7 +5,7 @@ volumes:
   redis_storage: null
 x-shared:
   restart: always
-  image: n8nio/n8n
+  image: n8nio/n8n:latest
   environment:
     - DB_TYPE=postgresdb
     - DB_POSTGRESDB_HOST=postgres
