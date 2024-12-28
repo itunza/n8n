@@ -71,7 +71,7 @@ services:
       retries: 10
   n8n:
     restart: always
-    image: 8nio/n8n:latest
+    image: n8nio/n8n
     environment:
       - DB_TYPE=postgresdb
       - DB_POSTGRESDB_HOST=postgres
